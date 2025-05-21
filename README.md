@@ -25,14 +25,16 @@ Features
 
  Clone the repository:
  
-```git clone https://github.com/RCesnulis/ALUEmulator.git```
-```cd ALUEmulator```
+```bash
+    git clone https://github.com/RCesnulis/ALUEmulator.git
+    cd ALUEmulator
+```
 
 Build and run the emulator:
-
+```bash
     g++ -o emulator main.cpp
     ./emulator
-
+```
 Edit and extend:
       Add your own test cases in main.cpp
       Introduce registers, memory, or even a control unit!
