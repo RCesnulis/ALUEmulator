@@ -25,7 +25,7 @@ Features
 
     Clone the repository:
 
-git clone https://github.com/yourusername/simple-processor-emulator.git
+git clone https://github.com/RCesnulis/ALUEmulator.git
 cd simple-processor-emulator
 
 Build and run the emulator:
