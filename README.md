@@ -2,14 +2,12 @@
 
 A lightweight emulator for a basic processor architecture built in C++. It simulates core components like a one-bit ALU, basic logic structures, and allows experimentation with fundamental digital logic design. This emulator is desinged for 8-bit operations
 Features
-
+```
     Simulates digital logic gates (AND, OR, NOT, etc.)
-
     Implements a One-Bit ALU with functionality for arithmetic and logic operations
-
     Demonstrates modular hardware-like design using C++ classes and templates
-
     Expandable and great for educational purposes
+```
     
 # Project Structure
 
