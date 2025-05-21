@@ -14,8 +14,11 @@ Features
 # Project Structure
 
 .
+
 ├── main.cpp                  # Driver file to test the processor logic
+
 ├── One_Bit_ALU.h             # One-bit ALU logic (add, subtract, AND, OR, etc.)
+
 └── Digital_logic_structures. # Basic digital components (MUX, gates, etc.)
 
 # Usage
