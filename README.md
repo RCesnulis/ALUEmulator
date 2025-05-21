@@ -1,6 +1,6 @@
 # Simple Processor Emulator
 
-A lightweight emulator for a basic processor architecture built in C++. It simulates core components like a one-bit ALU, basic logic structures, and allows experimentation with fundamental digital logic design.
+A lightweight emulator for a basic processor architecture built in C++. It simulates core components like a one-bit ALU, basic logic structures, and allows experimentation with fundamental digital logic design. This emulator is desinged for 8-bit operations
 Features
 
     Simulates digital logic gates (AND, OR, NOT, etc.)
@@ -14,9 +14,9 @@ Features
 # Project Structure
 
 .
-├── main.cpp                   # Driver file to test the processor logic
+├── main.cpp                  # Driver file to test the processor logic
 ├── One_Bit_ALU.h             # One-bit ALU logic (add, subtract, AND, OR, etc.)
-└── Digital_logic_structures.h# Basic digital components (MUX, gates, etc.)
+└── Digital_logic_structures. # Basic digital components (MUX, gates, etc.)
 
 # Usage
 
@@ -30,38 +30,14 @@ Build and run the emulator:
     g++ -o emulator main.cpp
     ./emulator
 
-    Edit and extend:
-
-        Add your own test cases in main.cpp
-
-        Expand the ALU to support multi-bit operations
-
-        Introduce registers, memory, or even a control unit!
+Edit and extend:
+      Add your own test cases in main.cpp
+      Introduce registers, memory, or even a control unit!
 
 # Contributions
 
 Feel free to fork, contribute, or submit pull requests! All improvements welcome — whether it’s documentation, bug fixes, or feature enhancements.
-📄 License
+
+# License
 
 This project is open-source and available under the MIT License.
-
-# How to use
-
-Usage Instructions
-
-    Create a build directory:
-
-mkdir build
-  cd build
-
-Generate build files:
-
-  cmake ..
-
-Build the project:
-
-  cmake --build .
-
-Run the emulator:
-
-  ./emulator
