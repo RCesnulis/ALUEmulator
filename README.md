@@ -23,10 +23,10 @@ Features
 
 # Usage
 
-    Clone the repository:
-
-git clone https://github.com/RCesnulis/ALUEmulator.git
-cd simple-processor-emulator
+ Clone the repository:
+ 
+```git clone https://github.com/RCesnulis/ALUEmulator.git```
+```cd ALUEmulator```
 
 Build and run the emulator:
 
